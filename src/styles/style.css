@@ -1,0 +1,75 @@
+:root {
+	--white: #FFFFFF;
+	--black: #000000;
+	--very-light-pink: #C7C7C7;
+	--text-input-field: #F7F7F7;
+	--hospital-green: #ACD9B2;
+	--sm: 14px;
+	--md: 16px;
+	--lg: 18px;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;
+}
+
+.navbar {
+	overflow: hidden;
+	border-bottom: 1px solid var(--very-light-pink);
+	display: flex;
+	align-items: center;
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+.navbar a {
+	text-decoration: none;
+	padding: 10px;
+	font-size: 16px;
+	margin-right: 20px;
+	color:#000000;
+}
+
+.navbar a:hover {
+	color: var(--hospital-green);
+}
+
+.navbar-right {
+	margin-left: auto;
+}
+
+.logo-usb {
+	width: 50px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+#chart-div {
+	width: 100%;
+	height: auto;
+	margin-top: 500px;
+}
+
+button {
+	background-color: var(--hospital-green);
+	border: none;
+	color: var(--white);
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
